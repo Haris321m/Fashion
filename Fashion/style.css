@@ -1,0 +1,264 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+
+}
+
+body{
+
+    width: 100%;
+    height: 100%;
+
+}
+
+#header .nav{
+
+    height: 100px;
+    width: 100%;
+    /* background: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+
+}
+
+#header .nav .nav-part-1{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#header .nav .nav-part-1 h3{
+
+    font-size: 17px;
+    overflow: hidden;
+    padding: 7px 0px;
+    border-radius: 50px;
+}
+
+#header .nav .nav-part-1 h3 a{
+
+    text-decoration: none;
+    color: black;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 5px 10px;
+    transition: all ease 0.5s;
+
+
+}
+#header .nav .nav-part-1 h3 a::after{
+
+    content: '';
+    position: absolute;
+    background: orangered;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: -32px;
+    outline: hidden;
+    z-index: -1;
+    border-radius: 50px;
+    transition: all ease 0.5s;
+    overflow: hidden;
+
+}
+
+#header .nav .nav-part-1 h3 a:hover::after{
+
+    cursor: pointer;
+    bottom: 0px;
+
+}
+
+#header .nav .nav-part-1 h3 a:hover{
+
+    color: white;
+    border: 2px solid orangered;
+
+}
+
+#header .nav .nav-part-1 i{
+
+    font-size: 16px;
+    padding: 5px 10px;
+    border: 2px solid black;
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+    transition: all ease 0.5s;
+
+}
+
+#header .nav .nav-part-1 i::after{
+
+    content: '';
+    position: absolute;
+    background: orangered;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: -32px;
+    outline: hidden;
+    z-index: -1;
+    border-radius: 50px;
+    transition: all ease 0.5s;
+    overflow: hidden;
+
+}
+
+#header .nav .nav-part-1 i:hover::after{
+
+    cursor: pointer;
+    bottom: 0px;
+
+}
+
+#header .nav .nav-part-1 i:hover{
+
+    cursor: pointer;
+    color: white;
+    border: 2px solid orangered;
+
+}
+
+#header .nav .nav-part-2 h1{
+
+    font-weight: 500;
+    font-size: 22px;
+
+}
+
+#header .nav .nav-part-3 button{
+
+    padding: 7px 12px;
+    border-radius: 50px;
+    border: 2px solid black;
+    font-size: 16px;
+    font-weight: 600;
+    background: white; 
+    transition: all ease 0.5s;
+
+}
+
+#header .nav .nav-part-3 button:hover{
+
+    cursor: pointer;
+    background: orangered;
+    color: white;
+    border: 2px solid #00000000;
+
+}
+
+#header .nav .nav-part-3 #btn-2{
+
+    background: orangered;
+    color: white;
+    border: none;
+    border: 2px solid #ffffff00;
+    transition: all ease 0.5s;
+
+}
+
+#header .nav .nav-part-3 #btn-2:hover{
+
+    background: white;
+    color: #000000;
+    border: 2px solid #000000;
+
+}
+
+.main>h1{
+
+    font-size: 150px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+
+}
+
+.main img{
+
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    object-position: top;
+    border-radius: 20px;
+
+}
+
+.main #img1{
+
+    transform: translate(-50%, -50%) rotate(-10deg);
+
+}
+.main #img2{
+
+    transform: translate(-50%, -50%) rotate(-20deg);
+
+}
+.main #img3{
+
+    transform: translate(-50%, -50%) rotate(-30deg);
+
+}
+.main #img4{
+
+    transform: translate(-50%, -50%) rotate(-40deg);
+
+}
+
+.main>i{
+
+    position: relative;
+    top: 49vh;
+    left: 43vw;
+    background: #ffffff;
+    padding: 5px;
+    border-radius: 50px;
+    transition: all ease 0.5s;
+
+}
+.main>i:hover{
+
+    cursor: pointer;
+    background: orangered;
+    color: white;
+
+}
+
+.main .advan{
+
+    text-align: center;
+    position: relative;
+    top: 45vh;
+    background: white;
+    width: 170px;
+    margin-left: 45vw;
+    padding: 6px;
+    border-radius: 50px;
+    transition: all ease 0.5s;
+
+}
+.main .advan:hover{
+
+    cursor: pointer;
+    background: orangered;
+    color: white;
+
+}
